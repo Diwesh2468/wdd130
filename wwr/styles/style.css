@@ -1,5 +1,55 @@
-/* targerting # content */
+/* targeting #content */
 
 #content {
     max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: rgba(31, 78, 61, .5);
+}
+
+nav a {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #BCD8B7;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.book, .join {
+    background-color: #35CE8D;
+}
+
+.book:hover, .join:hover {
+    background-color: #1F4E3D;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #BCD8B7;
+}
+
+.msg {
+    background-color: #1F4E3D;
+}
+
+footer {
+    background-color: #1F4E3D;
 }
