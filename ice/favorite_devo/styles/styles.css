@@ -82,3 +82,7 @@ button {
   color: white;
   border: none;
 }
+
+td a{
+  color:#001f3f;
+}
