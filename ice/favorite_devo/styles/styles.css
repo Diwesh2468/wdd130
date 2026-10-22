@@ -45,3 +45,40 @@ body {
   box-shadow: 5px 5px 0px black;
   min-height: 400px;
 }
+table{
+  width:100%;
+  border-collapse: collapse;
+  margin-bottom:30px;
+
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #d3d3d3;
+  text-align: left;
+}
+
+th {
+  background-color: #001f3f;
+  color: white;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #001f3f;
+  color: white;
+  border: none;
+}

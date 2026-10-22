@@ -15,11 +15,61 @@
     </header>
     <main>
       <div class="content-box">
-        <!-- Add your devotional content here -->
-         Add your table and your form here.
-         table{
-          
-         }
+         
+         <table>
+          <caption> My Favorite  devotional</caption>
+          <thead>
+          <tr>
+          <th>Speaker</th>
+          <th>Title</th>
+          <th>Location</th>
+          <th>Year</th>
+         </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Elder David A. Bednar</td>
+            <td><a href="https://www.churchofjesuschrist.org/study/broadcasts/worldwide-devotional-for-young-adults/2024/11/13bednar?lang=eng" target="_blank">Things as They Really Are 2.0</a></td>
+            <td>Worldwide Devotional</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Elder Jeffery R. Holland</td>
+            <td><a href="https://video.byui.edu/media/t/1_k24wi9sn"  target="_blank">Remember Lot's Wife</a></td>
+            <td>BYU</td>
+            <td>2009</td>
+          </tr>
+          <tr>
+          <td>Elder David A. Bednar</td>
+          <td> <a href ="https://speeches.byu.edu/talks/david-a-bednar/quick-observe/" target="blank">Quick to obsereve</a></td>
+          <td>BYU</td>
+          <td>2005</td>
+        </tr>
+        </tbody>  
+
+
+
+         </table>
+
+         <form>
+          <fieldset>
+            <legend>Add a devotional</legend>
+            <label for ="speaker">Speaker</label>
+            <input type = "text" id ="speaker" name ="speaker">
+
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" >
+        
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" >
+        
+            <label for="year">Year</label>
+            <input type="text" id="year" name="year">
+        
+            <button type="submit">Add Devotional</button>
+            
+          </fieldset>
+         </form>
       </div>
     </main>
   </div>
