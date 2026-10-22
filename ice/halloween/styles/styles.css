@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fa0909;
+}
+
+ul li {
+  float: left;
+}
+
+ul li  {
+  display: block;
+  color: rgb(244, 239, 239);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li :hover {
+  background-color: #b80c0c;
+}
+
+<body>
+
+<ul>
+    <li><a href="#Costume">Costume</a></li>
+  <li><a href="#Candy">Candy</a></li>
+  <li><a href="#Decorations">Decoration</a></li>
+  <li><a href="#Spooky">Spooky</a></li>
+</ul>
+
+
+:is(h1,h2,h3,h4,h5) 
+{
+    color:#b80c0c;
+}
+</body>
+</html>
