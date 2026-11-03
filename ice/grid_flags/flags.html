@@ -120,6 +120,64 @@
         #bred{
             background-color: #e8112d;
         }
+        #italy{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 300px;
+            height: 200px;
+        }
+        #igreen{
+            background-color: #009246;
+        }
+        #iwhite{
+            background-color: #f1f2f1;
+        }
+        #ired{
+            background-color: #ce2b37;
+        }
+
+        #car{
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            width:300px;
+            height:200px;
+
+        }
+        #cblue{
+            background-color: #003082;
+            grid-column: 1/4;
+            grid-row: 1/2;
+        }
+        #cwhite{
+            background-color: white;
+            grid-column: 1/4;
+            grid-row: 2/3;
+        }
+        #cgreen{
+            background-color:#289728 ;
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+        #cyellow{
+            background-color: #ffce00;
+            grid-column: 1/4;
+            grid-row: 4/5;
+        }
+        #cred{
+            background-color: #d21034;
+            grid-column: 2/3;
+            grid-row:1/5;
+        }
+        #cstar{
+            background: #ffce00;
+            width: 35px;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: center;
+        }
+
 
     </style>
 </head>
@@ -162,6 +220,24 @@
             <div id="bgreen"></div>
             <div id="byellow"></div>
             <div id="bred"></div>
+        </div>
+        <hr>
+
+        <h2>Italy</h2>
+        <div id="italy">
+            <div id="igreen"></div>
+            <div id="iwhite"></div>
+            <div id="ired"></div>
+        </div>
+        <hr>
+        <h2>Central African Republic</h2>
+        <div id="car">
+            <div id="cblue"></div>
+            <div id="cwhite"></div>
+            <div id="cyellow"></div>
+            <div id="cgreen"></div>
+            <div id="cred"></div>
+            <div class="star" id="cstar"></div>  
         </div>
         <hr>
     </main>
