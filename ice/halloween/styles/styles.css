@@ -2,6 +2,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color:black;
+  color:orange;
 }
 
 h2, p {
@@ -28,23 +30,28 @@ ul li  {
   text-decoration: none;
 }
 
-ul li :hover {
+ul li:hover {
   background-color: #b80c0c;
 }
 
-<body>
-
-<ul>
-    <li><a href="#Costume">Costume</a></li>
-  <li><a href="#Candy">Candy</a></li>
-  <li><a href="#Decorations">Decoration</a></li>
-  <li><a href="#Spooky">Spooky</a></li>
-</ul>
-
-
-:is(h1,h2,h3,h4,h5) 
-{
-    color:#b80c0c;
+h1{
+  text-align: center;
+  font-size: 4rem;
+  color:orange
 }
-</body>
-</html>
+
+section{
+  background-color: #2a1440;
+  border:2px solid orange;
+  border-radius: 12px;
+  margin:20px;
+  padding:10px;
+}
+
+h2{
+  color:yellow;
+  text-align:center;
+  font-size:2rem;
+}
+
+
