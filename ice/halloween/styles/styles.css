@@ -16,10 +16,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #fa0909;
+  display:flex;
 }
 
 ul li {
-  float: left;
+  flex:1;
 }
 
 ul li  {
@@ -53,5 +54,21 @@ h2{
   text-align:center;
   font-size:2rem;
 }
+
+img{
+  display:block;
+  margin:0 auto;
+  width:300px;
+
+}
+footer{
+  background-color:orangered ;
+  color:#0d0617;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+
 
 
