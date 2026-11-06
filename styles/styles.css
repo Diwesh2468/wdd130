@@ -22,8 +22,7 @@ header{
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 10px 30px;
-    background-image: linear-gradient(to right,#1C0F13, #067BC2);
-}
+    background-image: linear-gradient(to right, #1C0F13, #067BC2);}
 
 header img{
     width: 80px;
