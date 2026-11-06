@@ -1,9 +1,132 @@
-img {
-    width:300px;
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Funnel+Sans:wght@400;700&family=Kantumruy+Pro:wght@400;600&display=swap');
+:root{
+    --blue: #067BC2;    
+    --dark:#1c0F13;
+    --pale: #BFD1E5;
+    --vanilla:#EDDEA4;
+    --red:#A22C29;
 }
 body{
-    background-color: lightblue;
-    text-align:center;
+    margin: 0;
+    background-color:#EDDEA4;
+    color:#1c0F13;
+    font-family: "Funnel Sans", sans-serif;     
+}
 
+h1,h2{
+    font-family: "Fjalla One", sans-serif;     
+    color: #067BC2;
+}
+header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right,#1C0F13, #067BC2);
+}
+
+header img{
+    width: 80px;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: end;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family:"Kantumruy Pro", sans-serif;
+    font-weight: 600;
+}
+nav a:hover{
+    color: #EDDEA4;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+button{
+    background-color: #A22C29;
+    color: white;
+    border:none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 120px;
+}
+section{
+    background-color: #BFD1E5;
+    border-radius: 12px;
+    padding: 20px;
+}
+.intro{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    background-color: transparent;
+}
+.intro img{
+    grid-column: 2;
+    grid-row: 1/4;
+    width: 100%;
+    border-radius: 50%;
+    align-self: center;
+}
+.contact{
+    grid-column: 1/-1;
+}
+
+section a{
+    color: #067BC2;
+
+}
+
+section a:hover{
+    color: #A22C29;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: #067BC2;
+    color: white;
+}
+th,td{
+    padding: 8px;
+    border: 1px solid #1C0F13;
+    text-align: left;
+}
+
+form{
+    display: grid;
+    gap: 8px;
+}
+
+input,textarea{
+    padding: 8px;
+    border: 1px solid #1C0F13;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+footer{
+    background-color: #1c0F13;
+    color: white;
+    text-align: center;
+    padding:15px;
 }
