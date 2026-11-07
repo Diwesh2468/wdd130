@@ -129,3 +129,7 @@ footer{
     text-align: center;
     padding:15px;
 }
+
+main>h1{
+    grid-column: 1/-1;
+}
